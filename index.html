@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#153c30" />
+    <meta name="description" content="Conheça a Paella Beneficente da ABADEUS: uma tradição de solidariedade em Criciúma. Saiba mais sobre a causa, o evento e as novidades da próxima edição." />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Paella Beneficente | ABADEUS" />
+    <meta property="og:description" content="Muito mais que uma paella. Uma mesa que transforma vidas." />
+    <title>Paella Beneficente | ABADEUS</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght,SOFT,WONK@9..144,500,20,1;9..144,600,20,1;9..144,700,20,1&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="config.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+    <svg class="svg-sprite" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+      <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></symbol>
+      <symbol id="i-arrow-up-right" viewBox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9"/></symbol>
+      <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M7 3v4M17 3v4M3 10h18"/></symbol>
+      <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+      <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+      <symbol id="i-ticket" viewBox="0 0 24 24"><path d="M3 8a2 2 0 0 0 2-2h14a2 2 0 0 0 2 2v3a2 2 0 0 0 0 4v3a2 2 0 0 0-2 2H5a2 2 0 0 0-2-2v-3a2 2 0 0 0 0-4V8Z"/><path d="M12 6v2m0 3v2m0 3v2"/></symbol>
+      <symbol id="i-heart" viewBox="0 0 24 24"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8Z"/></symbol>
+      <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+      <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></symbol>
+      <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+      <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+      <symbol id="i-close" viewBox="0 0 24 24"><path d="M5 5l14 14M19 5 5 19"/></symbol>
+    </svg>
+
+    <div class="topbar"><span class="topbar__star" aria-hidden="true">✳</span> Gente reunida, vidas transformadas. <span class="topbar__star" aria-hidden="true">✳</span> Uma iniciativa ABADEUS</div>
+
+    <header class="site-header" id="inicio">
+      <div class="container header-inner">
+        <a class="brand" href="#inicio" aria-label="Paella Beneficente, voltar ao início">
+          <span class="brand__icon" aria-hidden="true"><span>✳</span></span>
+          <span class="brand__wordmark">paella<span class="brand__dot">.</span><small>BENEFICENTE</small></span>
+        </a>
+        <nav class="desktop-nav" aria-label="Navegação principal">
+          <a href="#sobre">O evento</a>
+          <a href="#proxima-edicao">Próxima edição</a>
+          <a href="#impacto">Nossa causa</a>
+          <a href="#duvidas">Dúvidas</a>
+        </nav>
+        <a class="header-cta" href="#novidades">Acompanhe as novidades <svg class="icon"><use href="#i-arrow-up-right"/></svg></a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-controls="mobileNav" aria-expanded="false" type="button"><svg class="icon open-icon"><use href="#i-menu"/></svg><svg class="icon close-icon"><use href="#i-close"/></svg></button>
+      </div>
+      <nav class="mobile-nav" id="mobileNav" aria-label="Navegação para dispositivos móveis" inert>
+        <a href="#sobre">O evento</a>
+        <a href="#proxima-edicao">Próxima edição</a>
+        <a href="#impacto">Nossa causa</a>
+        <a href="#duvidas">Dúvidas</a>
+        <a href="#novidades">Acompanhe as novidades ↗</a>
+      </nav>
+    </header>
+
+    <main id="conteudo">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero__texture" aria-hidden="true"></div>
+        <div class="container hero__layout">
+          <div class="hero__content">
+            <p class="eyebrow eyebrow--light"><span class="eyebrow__line"></span> UMA INICIATIVA DA ABADEUS</p>
+            <h1 id="hero-title">Uma mesa.<br />Muitas <em>histórias.</em></h1>
+            <p class="hero__description">A Paella Beneficente une sabor, solidariedade e comunidade para criar oportunidades reais em Criciúma.</p>
+            <div class="hero__actions">
+              <a class="button button--yellow" href="#sobre">Conheça o evento <svg class="icon"><use href="#i-arrow"/></svg></a>
+              <a class="text-link text-link--light" href="#proxima-edicao">Próxima edição <span aria-hidden="true">↗</span></a>
+            </div>
+            <div class="hero__footnote"><span class="hero__status-dot" aria-hidden="true"></span><span id="hero-status">Próxima edição em preparação</span></div>
+          </div>
+          <div class="hero__visual" aria-label="Fotografia ilustrativa de uma paella">
+            <div class="hero__shape hero__shape--one" aria-hidden="true"></div>
+            <div class="hero__shape hero__shape--two" aria-hidden="true"></div>
+            <div class="hero__photo-ring">
+              <img class="hero__photo" src="https://images.pexels.com/photos/9570408/pexels-photo-9570408.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1400" data-fallback="assets/paella-ilustracao.svg" alt="Paella colorida em uma panela, imagem ilustrativa" fetchpriority="high" />
+            </div>
+            <div class="hero__sticker" aria-hidden="true"><span>feito com</span><strong>♥</strong><span>pra fazer<br />o bem</span></div>
+            <div class="hero__accent" aria-hidden="true">✳</div>
+          </div>
+        </div>
+        <div class="hero__bottom-curve" aria-hidden="true"></div>
+      </section>
+
+      <div class="marquee" aria-label="Sabor, afeto e solidariedade">
+        <div class="marquee__track" aria-hidden="true">
+          <span>SABOR QUE UNE</span><b>✳</b><span>AFETO QUE TRANSFORMA</span><b>✳</b><span>SOLIDARIEDADE À MESA</span><b>✳</b>
+          <span>SABOR QUE UNE</span><b>✳</b><span>AFETO QUE TRANSFORMA</span><b>✳</b><span>SOLIDARIEDADE À MESA</span><b>✳</b>
+        </div>
+      </div>
+
+      <section class="section intro" id="sobre" aria-labelledby="sobre-title">
+        <div class="container intro__grid">
+          <div class="intro__heading" data-reveal>
+            <p class="eyebrow"><span class="eyebrow__line"></span> 01 / SOBRE O EVENTO</p>
+            <h2 class="section-title" id="sobre-title">Uma tradição com um <em>ingrediente especial.</em></h2>
+          </div>
+          <div class="intro__copy" data-reveal>
+            <p class="intro__lead">A receita é deliciosa. O propósito é ainda maior.</p>
+            <p>A Paella Beneficente da ABADEUS é um encontro entre pessoas, empresas e voluntários que acreditam no poder de fazer o bem, juntos.</p>
+            <p>A renda arrecadada fortalece ações de educação, inclusão e desenvolvimento de crianças, jovens e famílias atendidas pela instituição.</p>
+            <a class="inline-link" href="https://www.abadeus.org.br/" target="_blank" rel="noopener noreferrer">Conheça a ABADEUS <svg class="icon"><use href="#i-arrow-up-right"/></svg></a>
+          </div>
+        </div>
+        <div class="container pillars" data-reveal>
+          <article class="pillar"><div class="pillar__number">01</div><div class="pillar__icon"><svg class="icon"><use href="#i-heart"/></svg></div><h3>Feita com propósito</h3><p>Uma ação gastronômica que contribui para manter projetos sociais ao longo do ano.</p></article>
+          <article class="pillar"><div class="pillar__number">02</div><div class="pillar__icon"><svg class="icon"><use href="#i-check"/></svg></div><h3>Construída em comunidade</h3><p>Voluntários, parceiros e apoiadores fazem cada edição acontecer.</p></article>
+          <article class="pillar"><div class="pillar__number">03</div><div class="pillar__icon"><svg class="icon"><use href="#i-arrow-up-right"/></svg></div><h3>Um impacto que continua</h3><p>O resultado vai além de um dia de evento e chega a quem mais precisa.</p></article>
+        </div>
+      </section>
+
+      <section class="section edition" id="proxima-edicao" aria-labelledby="edicao-title">
+        <div class="container edition__top">
+          <div data-reveal>
+            <p class="eyebrow"><span class="eyebrow__line"></span> 02 / MARQUE NA AGENDA</p>
+            <h2 class="section-title" id="edicao-title">O próximo encontro <em>está sendo preparado.</em></h2>
+          </div>
+          <p class="edition__intro" id="editionIntro" data-reveal>Ainda não há informações oficiais sobre a próxima edição. Quando os detalhes forem confirmados pela organização, você poderá consultá-los aqui.</p>
+        </div>
+        <div class="container edition__cards" data-reveal>
+          <article class="info-card"><div class="info-card__icon"><svg class="icon"><use href="#i-calendar"/></svg></div><div><span class="info-card__label">Data</span><h3 id="evento-data">A confirmar</h3><p id="evento-data-sub">Acompanhe a divulgação oficial.</p></div></article>
+          <article class="info-card"><div class="info-card__icon"><svg class="icon"><use href="#i-clock"/></svg></div><div><span class="info-card__label">Horário</span><h3 id="evento-horario">A confirmar</h3><p>Informações da próxima edição.</p></div></article>
+          <article class="info-card"><div class="info-card__icon"><svg class="icon"><use href="#i-pin"/></svg></div><div><span class="info-card__label">Local</span><h3 id="evento-local">A confirmar</h3><p id="evento-local-sub">Criciúma, Santa Catarina</p></div></article>
+          <article class="info-card"><div class="info-card__icon"><svg class="icon"><use href="#i-ticket"/></svg></div><div><span class="info-card__label">Ingressos / porções</span><h3 id="evento-ingressos">A divulgar</h3><p id="evento-ingressos-sub">Canais e valores serão informados.</p></div></article>
+        </div>
+        <div class="container edition__note" data-reveal><span class="edition__note-icon" aria-hidden="true">✳</span><p><strong>Fique por dentro!</strong> As informações acima serão atualizadas conforme a ABADEUS anunciar a próxima edição.</p><a href="#novidades">Onde acompanhar <svg class="icon"><use href="#i-arrow"/></svg></a></div>
+      </section>
+
+      <section class="story" id="impacto" aria-labelledby="impacto-title">
+        <div class="story__image" data-reveal>
+          <img src="https://files.bewezy.com/thumbs/767/511/89ff7a7ebc87f76f9c7a3b2256958401/c4f72782f59b44286e5ba310e686d8d5/18-paella-2026-2.png" data-fallback="assets/paella-ilustracao.svg" alt="Registro da estrutura da 18ª Paella Beneficente da ABADEUS, realizada em 2026" loading="lazy" />
+          <span class="story__image-caption">18ª PAELLA BENEFICENTE • 2026</span>
+        </div>
+        <div class="story__body" data-reveal>
+          <p class="eyebrow eyebrow--light"><span class="eyebrow__line"></span> 03 / A CAUSA</p>
+          <h2 class="section-title section-title--light" id="impacto-title">O sabor passa.<br /><em>O impacto fica.</em></h2>
+          <p>A ABADEUS Centro de Inovação Social atua com educação, inclusão e qualificação profissional. Ao participar da Paella Beneficente, a comunidade ajuda a manter esse trabalho vivo.</p>
+          <div class="story__stats">
+            <div><strong>18ª</strong><span>edição realizada em 2026</span></div>
+            <div><strong>700+</strong><span>ingressos vendidos na edição de 2026</span></div>
+            <div><strong>4 mil+</strong><span>atendimentos em programas da instituição em 2025</span></div>
+          </div>
+          <a class="button button--outline-light" href="https://www.abadeus.org.br/postagem/1046/abadeus-chega-a-18-paella-beneficente-com-mais-de-700-ingressos-vendidos" target="_blank" rel="noopener noreferrer">Leia sobre a última edição <svg class="icon"><use href="#i-arrow-up-right"/></svg></a>
+          <p class="story__source">Dados divulgados pela ABADEUS em 23/09/2026.</p>
+        </div>
+      </section>
+
+      <section class="section steps" id="participar" aria-labelledby="participar-title">
+        <div class="container">
+          <div class="steps__heading" data-reveal>
+            <p class="eyebrow"><span class="eyebrow__line"></span> 04 / FAÇA PARTE</p>
+            <h2 class="section-title" id="participar-title">Tem um lugar <em>pra você nessa mesa.</em></h2>
+            <p>Quer participar da próxima edição? É simples começar.</p>
+          </div>
+          <div class="steps__grid" data-reveal>
+            <article class="step"><span class="step__number">01</span><span class="step__illustration" aria-hidden="true">◌</span><h3>Fique de olho</h3><p>Acompanhe os anúncios para saber a data, o local e as novidades.</p></article>
+            <article class="step"><span class="step__number">02</span><span class="step__illustration step__illustration--heart" aria-hidden="true">♡</span><h3>Escolha apoiar</h3><p>Confira os canais de participação e as porções quando forem divulgados.</p></article>
+            <article class="step"><span class="step__number">03</span><span class="step__illustration step__illustration--spark" aria-hidden="true">✳</span><h3>Espalhe o bem</h3><p>Compartilhe a iniciativa com quem também acredita na transformação social.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section journal" id="novidades" aria-labelledby="novidades-title">
+        <div class="container journal__layout">
+          <div class="journal__intro" data-reveal>
+            <p class="eyebrow"><span class="eyebrow__line"></span> 05 / FIQUE POR DENTRO</p>
+            <h2 class="section-title" id="novidades-title">Toda boa história tem um <em>próximo capítulo.</em></h2>
+            <p>Novas informações sobre a Paella Beneficente serão divulgadas pelos canais oficiais da ABADEUS.</p>
+            <a class="button button--green" href="https://www.abadeus.org.br/" target="_blank" rel="noopener noreferrer">Acessar site da ABADEUS <svg class="icon"><use href="#i-arrow-up-right"/></svg></a>
+          </div>
+          <a class="news-card" data-reveal href="https://www.abadeus.org.br/postagem/1046/abadeus-chega-a-18-paella-beneficente-com-mais-de-700-ingressos-vendidos" target="_blank" rel="noopener noreferrer" aria-label="Leia a notícia oficial sobre a 18ª edição da Paella Beneficente">
+            <div class="news-card__image"><img src="https://images.pexels.com/photos/24906297/pexels-photo-24906297.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200" data-fallback="assets/paella-ilustracao.svg" alt="Paella em uma panela, imagem ilustrativa" loading="lazy" /><span class="news-card__chip">Última edição</span></div>
+            <div class="news-card__content"><span class="news-card__date">23 SET 2026 • NOTÍCIA ABADEUS</span><div class="news-card__title-row"><h3>18ª edição reúne comunidade e fortalece a solidariedade em Criciúma</h3><span class="news-card__arrow"><svg class="icon"><use href="#i-arrow-up-right"/></svg></span></div><p>Veja como a edição de 2026 contribuiu para os projetos da instituição.</p></div>
+          </a>
+        </div>
+      </section>
+
+      <section class="section faq" id="duvidas" aria-labelledby="faq-title">
+        <div class="container faq__layout">
+          <div class="faq__intro" data-reveal><p class="eyebrow"><span class="eyebrow__line"></span> 06 / DÚVIDAS FREQUENTES</p><h2 class="section-title" id="faq-title">Ficou alguma <em>dúvida?</em></h2><p>As respostas mais importantes para acompanhar a próxima edição.</p><a class="inline-link" href="mailto:contato@abadeus.com.br">Entre em contato <svg class="icon"><use href="#i-arrow-up-right"/></svg></a></div>
+          <div class="faq__list" data-reveal>
+            <details class="faq-item"><summary>Quando será a próxima Paella Beneficente? <span class="faq-item__plus"><svg class="icon"><use href="#i-plus"/></svg></span></summary><p id="faqData">A data da próxima edição ainda não foi confirmada. Assim que houver um anúncio oficial, a informação poderá ser atualizada nesta página.</p></details>
+            <details class="faq-item"><summary>Onde será realizado o evento? <span class="faq-item__plus"><svg class="icon"><use href="#i-plus"/></svg></span></summary><p id="faqLocal">O local da próxima edição ainda será divulgado pela organização. A Paella Beneficente é uma iniciativa da ABADEUS, em Criciúma (SC).</p></details>
+            <details class="faq-item"><summary>Como adquirir minha paella? <span class="faq-item__plus"><svg class="icon"><use href="#i-plus"/></svg></span></summary><p id="faqIngressos">Os canais de venda, opções de porções e valores serão informados oficialmente pela ABADEUS quando as vendas forem anunciadas. Este site é informativo e não realiza compras.</p></details>
+            <details class="faq-item"><summary>Para onde vai o valor arrecadado? <span class="faq-item__plus"><svg class="icon"><use href="#i-plus"/></svg></span></summary><p>A arrecadação contribui para a manutenção e a ampliação das atividades sociais, educacionais e de qualificação profissional desenvolvidas pela ABADEUS.</p></details>
+            <details class="faq-item"><summary>Como posso acompanhar as novidades? <span class="faq-item__plus"><svg class="icon"><use href="#i-plus"/></svg></span></summary><p>Consulte esta página e os canais oficiais da ABADEUS. Você também pode entrar em contato pelo e-mail contato@abadeus.com.br.</p></details>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta-section" aria-labelledby="cta-title">
+        <div class="container cta-section__inner" data-reveal>
+          <div class="cta-section__flower" aria-hidden="true">✳</div>
+          <p class="eyebrow eyebrow--light">SOMOS MAIS FORTES JUNTOS</p>
+          <h2 id="cta-title">O ingrediente principal é <em>você.</em></h2>
+          <p>A próxima edição ainda está por vir. O impacto de cada gesto de solidariedade já é real.</p>
+          <a class="button button--yellow" href="https://www.abadeus.org.br/" target="_blank" rel="noopener noreferrer">Conheça a instituição <svg class="icon"><use href="#i-arrow-up-right"/></svg></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="contato">
+      <div class="container footer__main">
+        <div class="footer__brand"><a class="brand brand--footer" href="#inicio"><span class="brand__icon" aria-hidden="true"><span>✳</span></span><span class="brand__wordmark">paella<span class="brand__dot">.</span><small>BENEFICENTE</small></span></a><p>Uma iniciativa da ABADEUS Centro de Inovação Social. Sabor e solidariedade em Criciúma.</p></div>
+        <div class="footer__column"><h3>Navegue</h3><a href="#sobre">Sobre o evento</a><a href="#proxima-edicao">Próxima edição</a><a href="#impacto">A causa</a><a href="#duvidas">Perguntas frequentes</a></div>
+        <div class="footer__column"><h3>Fale com a ABADEUS</h3><a href="mailto:contato@abadeus.com.br">contato@abadeus.com.br</a><a href="tel:+554834622080">(48) 3462-2080</a><a href="https://www.abadeus.org.br/" target="_blank" rel="noopener noreferrer">Site oficial ↗</a><span>Criciúma, Santa Catarina</span></div>
+      </div>
+      <div class="container footer__bottom"><span>© <span id="currentYear">2026</span> Paella Beneficente • Uma iniciativa ABADEUS</span><span>Feito para compartilhar coisas boas ♡</span></div>
+      <div class="container footer__credits">Imagens gastronômicas ilustrativas: Pexels. Fotografia da 18ª edição: ABADEUS / Marketing ABADEUS. Este site institucional não recebe pagamentos, pedidos ou dados pessoais.</div>
+    </footer>
+
+    <a class="back-to-top" id="backToTop" href="#inicio" aria-label="Voltar ao topo"><svg class="icon"><use href="#i-arrow"/></svg></a>
+  </body>
+</html>
